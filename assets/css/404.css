@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+:root {
+  --blue: #0e0620;
+  --white: #fff;
+  --BCHS Unblocked Games: #e77e7e;
+}
+
+html,
+body {
+  height: 100%;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+a:hover{
+  color: white;
+  text-decoration: none;
+}
+body {
+  background-color: #1F2029;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 1.7;
+  color: var(--BCHS Unblocked Games);
+  font-size: 1em;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  -webkit-padding-start: 35px;
+          padding-inline-start: 35px;
+}
+
+svg {
+  width: 100%;
+  visibility: hidden;
+}
+
+h1 {
+  font-size: 7.5em;
+  margin: 15px 0px;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+  color: white;
+}
+
+p{
+  color: white;
+}
+
+.btn {
+  z-index: 1;
+  overflow: hidden;
+  background: transparent;
+  position: relative;
+  padding: 8px 50px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1em;
+  letter-spacing: 2px;
+  transition: 0.2s ease;
+  font-weight: bold;
+  margin: 5px 0px;
+}
+.btn.BCHS Unblocked Games {
+  color: black;
+  background: white;
+}
+.btn.BCHS Unblocked Games:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 100%;
+  background: var(--BCHS Unblocked Games);
+  z-index: -1;
+  transition: 0.2s ease;
+}
+.btn.BCHS Unblocked Games:hover {
+  color: var(--white);
+  background: var(--BCHS Unblocked Games);
+  transition: 0.2s ease;
+}
+.btn.BCHS Unblocked Games:hover:before {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    display: block;
+  }
+
+  .container {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+}

@@ -1,0 +1,78 @@
+/* =================== FAQ =================== */
+.faq-wrapper{
+    margin-bottom: 2%;
+}
+
+details {
+    width: 75%;
+    min-height: 5px;
+    max-width: 700px;
+    padding: 45px 70px 45px 45px;
+    margin: 0 auto;
+    position: relative;
+    font-size: 22px;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 15px;
+    box-sizing: border-box;
+    transition: all .2s;
+    color: black;
+    background-color: white;
+  }
+  
+  details:hover {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.35);
+    transform: translateY(-5px);
+  }	
+      
+  details + details {
+    margin-top: 20px;
+  }
+  
+  details[open] {
+    min-height: 50px;
+    background-color: #f6f7f8;
+    box-shadow: 2px 2px 20px rgba(0,0,0,.2);
+    transition: .5s ease;
+  }
+  
+  details p {
+    color: 'black';
+    font-weight: 300;
+  }
+  
+  summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  summary:focus {
+    outline: none;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none
+  }
+  
+  .control-icon {
+    fill: #E77E7E;
+    transition: .3s ease;
+    pointer-events: none;
+  }
+  
+  .control-icon-close {
+    display: none;
+    transition: .5s ease;
+  }
+  
+  details[open] .control-icon-close {
+    display: initial;
+    transition: .5s ease;
+  }
+  
+  details[open] .control-icon-expand {
+    display: none;
+  transition: .5s ease;
+  }

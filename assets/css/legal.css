@@ -1,0 +1,33 @@
+.legal-wrap{
+    max-width: 80rem;
+    padding: 1rem 1.75rem;
+    margin: 0 auto 5vh;
+    color: white;
+    font-size: 1.25rem;
+    background: rgba(255, 255, 255, 0.29);
+    border-radius: 16px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 6px 12px 0px;
+}
+
+.legal-header{
+    font-size: 3rem;
+    color: var(--ubg);
+}
+
+.legal-subheader{
+    font-size: 2rem;
+    color: var(--ubg);
+}
+
+.legal-body{
+    font-size: 1rem;
+}
+
+.legal-list{
+    font-size: 1rem;
+    padding: 0 2rem;
+}
+
+.legal-sublist{
+    padding-left: 3rem;
+}

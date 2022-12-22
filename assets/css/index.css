@@ -1,0 +1,45 @@
+/* =================== Home Page =================== */
+h1{
+    font-size: 3rem;
+}
+
+/* =================== Content =================== */
+.content-wrapper{
+    max-width: 80%;
+    margin: auto;
+    padding-bottom: 5%;
+}
+
+.centered{
+    text-align: center;
+}
+
+#games-count {
+    color: var(--ubg);
+}
+
+.bottom{
+    text-align: center;
+    padding-bottom: 2.5%;
+}
+
+/* =================== Intro =================== */
+.intro-container{
+    text-align: center;
+}
+
+.intro-header{
+    font-size: 4rem;
+    color: white;
+}
+
+.alt-t {
+    color: var(--ubg);
+}
+
+.intro-container > p{
+    font-size: 1.5rem;
+    margin: auto;
+    text-align: center;
+    max-width: 85%;
+}
